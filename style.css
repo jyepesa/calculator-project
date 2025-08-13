@@ -1,0 +1,38 @@
+body{
+  padding: 0px;
+}
+
+.title {
+  color: #5C6AC4;
+}
+
+.grid-container {
+  border-radius: 7px;
+  display: grid;
+  background-color: #244f94;
+  padding: 15px;
+  width: 260px;
+  height: 300px;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 2px;
+  border: solid 1px;
+  justify-content: center;
+}
+
+.display {
+  grid-column: 1 / 5;
+  background-color: white;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  font-size: 30px;
+  
+
+}
+
+button {
+  border-radius: 5px;
+}
